@@ -1,0 +1,8 @@
+# VS Code extension packaging
+*.vsix
+
+# macOS system files
+.DS_Store
+
+# Node modules
+node_modules 

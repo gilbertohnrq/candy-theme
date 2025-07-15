@@ -1,0 +1,37 @@
+{
+  "name": "candy-dark-theme",
+  "displayName": "Candy DarkTheme",
+  "description": "A custom theme inspired by ray.so Candy",
+  "version": "0.0.1",
+  "publisher": "gilbertohnrqdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilbertohnrq/candy-dark-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "candy",
+    "ray.so"
+  ],
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Candy - Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/candy-night.json"
+      },
+      {
+        "label": "Candy - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/candy-dark.json"
+      }
+    ]
+  }
+} 
