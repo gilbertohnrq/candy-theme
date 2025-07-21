@@ -2,7 +2,7 @@
   "name": "candy-dark-theme",
   "displayName": "Candy DarkTheme",
   "description": "A custom theme inspired by ray.so Candy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "gilbertohnrqdev",
   "license": "MIT",
   "repository": {
@@ -16,6 +16,11 @@
     "ray.so"
   ],
   "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#2C253F",
+    "theme": "dark"
+  },
+  "preview": true,
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -33,5 +38,12 @@
         "path": "./themes/candy-dark.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.15.0"
   }
 } 
